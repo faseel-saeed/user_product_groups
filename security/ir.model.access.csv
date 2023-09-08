@@ -1,0 +1,3 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_model_product_category_groups_all","model_product_category_groups_all","model_product_category_groups",,1,0,0,0
+"access_model_product_category_groups_user","model_product_category_groups_user","model_product_category_groups","group_model_product_category_groups_manager",1,1,1,1

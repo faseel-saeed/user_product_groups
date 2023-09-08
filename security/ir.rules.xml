@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<odoo>
+        <record id="rule_id" model="ir.rule">
+            <field name="name">User_product_group_restriction</field>
+            <field name="model_id" ref="product.model_product_template"/>
+            <field name="domain_force">['|', '|',
+              ('categ_id.id','in',user.product_category_group.product_categories.ids),
+              ('categ_id.parent_id.id','in',user.product_category_group.product_categories.ids),
+              ('categ_id.parent_id.parent_id.id','in',user.product_category_group.product_categories.ids) ]
+            </field>
+        </record>
+
+</odoo>

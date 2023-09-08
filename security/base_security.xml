@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<odoo>
+        <record id="group_model_product_category_groups_manager" model="res.groups">
+            <field name="name">Product Category Groups Manager</field>
+            <field name="comment">Manages the Product Category groups</field>
+            <field name="category_id" ref="base.module_category_hidden"/>
+        </record>
+
+</odoo>
